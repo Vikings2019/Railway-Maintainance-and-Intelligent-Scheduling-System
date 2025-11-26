@@ -1,3 +1,7 @@
+RAILWAY MAINTAINANCE AND INTELLIGENT SCHEDULING SYSTEM
+
+
+
 This project is a full-stack web application built using HTML, CSS, and JavaScript for the frontend, Node.js and Python for the backend, and MongoDB as the database.
 
 The architecture is modular, with separate folders for the frontend, Node.js backend, Python processing scripts, and database configuration.
