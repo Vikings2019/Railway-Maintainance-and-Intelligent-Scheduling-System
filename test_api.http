@@ -1,0 +1,24 @@
+### 1️⃣ Test Home Route
+GET http://127.0.0.1:5000/
+
+### 2️⃣ Fault Detection API
+POST http://127.0.0.1:5000/api/fault-detection
+Content-Type: application/json
+
+{
+  "route": "Chennai-Bangalore",
+  "temperature": 36,
+  "vibration": 0.7
+}
+
+### 3️⃣ Cost Optimization API
+GET http://127.0.0.1:5000/api/cost-optimization
+
+### 4️⃣ Dynamic Cost Prediction API
+POST http://127.0.0.1:5000/api/dynamic-cost
+Content-Type: application/json
+
+{
+  "route": "Mumbai-Pune",
+  "weather": "Rainy"
+}
